@@ -91,3 +91,14 @@ var blogSchema = new Schema({
 ## Models
 
 `Models` 是从 `Schema` 编译来的构造函数。 它们的实例就代表着可以从数据库保存和读取的 documents。 从数据库创建和读取 document 的所有操作都是通过 model 进行的。
+
+```js
+var schema = new mongoose.Schema({ name: "string", size: "string" });
+var Tank = mongoose.model("Tank", schema);
+```
+
+第一个参数是跟 `model` 对应的集合（ collection ）名字的 单数 形式。 Mongoose 会自动找到名称是 `model` 名字 复数 形式的 `collection` 。 对于上例，Tank 这个 model 就对应数据库中 tanks 这个 collection。`.model()` 这个函数是对 `schema` 做了拷贝（生成了 `model`）。 你要确保在调用 `.model()` 之前把所有需要的东西都加进 `schema` 里了！
+
+## Documents
+
+Mongoose `document` 代表着 MongoDB 文档的一对一映射。 每个 document 都是他的 Model 的实例。
