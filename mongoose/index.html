@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Mongoose | Note</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/blogs/assets/css/0.styles.f7c6bd56.css" as="style"><link rel="preload" href="/blogs/assets/js/app.83b52b03.js" as="script"><link rel="preload" href="/blogs/assets/js/2.49b2695f.js" as="script"><link rel="preload" href="/blogs/assets/js/10.fcfbf0bd.js" as="script"><link rel="prefetch" href="/blogs/assets/js/11.5c972ead.js"><link rel="prefetch" href="/blogs/assets/js/12.590ae345.js"><link rel="prefetch" href="/blogs/assets/js/13.07e0e961.js"><link rel="prefetch" href="/blogs/assets/js/14.8060231d.js"><link rel="prefetch" href="/blogs/assets/js/3.9175481d.js"><link rel="prefetch" href="/blogs/assets/js/4.ba3164ba.js"><link rel="prefetch" href="/blogs/assets/js/5.75a3592b.js"><link rel="prefetch" href="/blogs/assets/js/6.0377ba0c.js"><link rel="prefetch" href="/blogs/assets/js/7.09fe041a.js"><link rel="prefetch" href="/blogs/assets/js/8.47c0545d.js"><link rel="prefetch" href="/blogs/assets/js/9.255004e1.js">
+    <link rel="stylesheet" href="/blogs/assets/css/0.styles.f7c6bd56.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blogs/" class="home-link router-link-active"><img src="/blogs/assets/logo.png" alt="Note" class="logo"> <span class="site-name can-hide">Note</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="日常笔记" class="dropdown-title"><span class="title">笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="日常笔记" class="mobile-dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/mongoose/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Mongoose
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/mini-program/" class="nav-link">
+  小程序
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/language/japanese/" class="nav-link">
+  Japanese
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常用插件" class="dropdown-title"><span class="title">插件</span> <span class="arrow down"></span></button> <button type="button" aria-label="常用插件" class="mobile-dropdown-title"><span class="title">插件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/plugins/vue/" class="nav-link">
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/mini-program/" class="nav-link">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/language/japanese/" class="nav-link">
+  小程序
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/language/japanese/" class="nav-link">
+  JavaScript
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="日常笔记" class="dropdown-title"><span class="title">笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="日常笔记" class="mobile-dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/mongoose/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Mongoose
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/mini-program/" class="nav-link">
+  小程序
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/language/japanese/" class="nav-link">
+  Japanese
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常用插件" class="dropdown-title"><span class="title">插件</span> <span class="arrow down"></span></button> <button type="button" aria-label="常用插件" class="mobile-dropdown-title"><span class="title">插件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/plugins/vue/" class="nav-link">
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/mini-program/" class="nav-link">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/language/japanese/" class="nav-link">
+  小程序
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/language/japanese/" class="nav-link">
+  JavaScript
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Mongoose</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/mongoose/#connections" class="sidebar-link">Connections</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blogs/mongoose/#回调" class="sidebar-link">回调</a></li></ul></li><li><a href="/blogs/mongoose/#schemas" class="sidebar-link">Schemas</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blogs/mongoose/#schematypes-类型" class="sidebar-link">SchemaTypes 类型</a></li></ul></li><li><a href="/blogs/mongoose/#models" class="sidebar-link">Models</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/blogs/mongoose/#documents" class="sidebar-link">Documents</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="mongoose"><a href="#mongoose" class="header-anchor">#</a> Mongoose</h1> <p>Mongoose 中文阅读文档<a href="http://www.mongoosejs.net/" target="_blank" rel="noopener noreferrer">传送门<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="connections"><a href="#connections" class="header-anchor">#</a> Connections</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>mongoose.connect<span class="token punctuation">(</span><span class="token string">'mongodb://localhost/myapp'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>你也可以在 uri 中指定多个参数：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>mongoose.connect<span class="token punctuation">(</span><span class="token string">'mongodb://username:password@host:port/database?options...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>或者</p> <div class="language-bash extra-class"><pre class="language-bash"><code>mongoose.connect<span class="token punctuation">(</span>uri, options<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>举例：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> options <span class="token operator">=</span> <span class="token punctuation">{</span>
+  useMongoClient<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  autoIndex<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// Don't build indexes</span>
+  reconnectTries<span class="token operator">:</span> Number<span class="token punctuation">.</span><span class="token constant">MAX_VALUE</span><span class="token punctuation">,</span> <span class="token comment">// Never stop trying to reconnect</span>
+  reconnectInterval<span class="token operator">:</span> <span class="token number">500</span><span class="token punctuation">,</span> <span class="token comment">// Reconnect every 500ms</span>
+  poolSize<span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token comment">// Maintain up to 10 socket connections</span>
+  <span class="token comment">// If not connected, return errors immediately rather than waiting for reconnect</span>
+  bufferMaxEntries<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+mongoose<span class="token punctuation">.</span><span class="token function">connect</span><span class="token punctuation">(</span>uri<span class="token punctuation">,</span> options<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="回调"><a href="#回调" class="header-anchor">#</a> 回调</h3> <p><code>connect()</code>函数接受回调函数，或返回一个 promise。</p> <div class="language-js extra-class"><pre class="language-js"><code>mongoose<span class="token punctuation">.</span><span class="token function">connect</span><span class="token punctuation">(</span>uri<span class="token punctuation">,</span> options<span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// Check error in initial connection. There is no 2nd param to the callback.</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Or using promises</span>
+mongoose<span class="token punctuation">.</span><span class="token function">connect</span><span class="token punctuation">(</span>uri<span class="token punctuation">,</span> options<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span>
+  <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">/** ready to use. The `mongoose.connect()` promise resolves to undefined. */</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">(</span><span class="token parameter">err</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">/** handle initial connection error */</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="schemas"><a href="#schemas" class="header-anchor">#</a> Schemas</h2> <p>Mongoose 的一切始于 Schema，Schema 定义了一个集合中数据的基本格式，每个 schema 都会映射到一个 MongoDB collection ，并定义这个 collection 里的文档的构成。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> mongoose <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;mongoose&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> Schema <span class="token operator">=</span> mongoose<span class="token punctuation">.</span>Schema<span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> blogSchema <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Schema</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  title<span class="token operator">:</span> String<span class="token punctuation">,</span>
+  author<span class="token operator">:</span> String<span class="token punctuation">,</span>
+  body<span class="token operator">:</span> String<span class="token punctuation">,</span>
+  comments<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> body<span class="token operator">:</span> String<span class="token punctuation">,</span> date<span class="token operator">:</span> Date <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  date<span class="token operator">:</span> <span class="token punctuation">{</span> type<span class="token operator">:</span> Date<span class="token punctuation">,</span> <span class="token keyword">default</span><span class="token operator">:</span> Date<span class="token punctuation">.</span>now <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  hidden<span class="token operator">:</span> Boolean<span class="token punctuation">,</span>
+  meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+    votes<span class="token operator">:</span> Number<span class="token punctuation">,</span>
+    favs<span class="token operator">:</span> Number<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="schematypes-类型"><a href="#schematypes-类型" class="header-anchor">#</a> SchemaTypes 类型</h3> <ul><li>String</li> <li>Number</li> <li>Date</li> <li>Buffer</li> <li>Boolean</li> <li>Mixed</li> <li>ObjectId</li> <li>Array</li></ul> <h2 id="models"><a href="#models" class="header-anchor">#</a> Models</h2> <p><code>Models</code> 是从 <code>Schema</code> 编译来的构造函数。 它们的实例就代表着可以从数据库保存和读取的 documents。 从数据库创建和读取 document 的所有操作都是通过 model 进行的。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> schema <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">mongoose<span class="token punctuation">.</span>Schema</span><span class="token punctuation">(</span><span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token string">&quot;string&quot;</span><span class="token punctuation">,</span> size<span class="token operator">:</span> <span class="token string">&quot;string&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> Tank <span class="token operator">=</span> mongoose<span class="token punctuation">.</span><span class="token function">model</span><span class="token punctuation">(</span><span class="token string">&quot;Tank&quot;</span><span class="token punctuation">,</span> schema<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>第一个参数是跟 <code>model</code> 对应的集合（ collection ）名字的 单数 形式。 Mongoose 会自动找到名称是 <code>model</code> 名字 复数 形式的 <code>collection</code> 。 对于上例，Tank 这个 model 就对应数据库中 tanks 这个 collection。<code>.model()</code> 这个函数是对 <code>schema</code> 做了拷贝（生成了 <code>model</code>）。 你要确保在调用 <code>.model()</code> 之前把所有需要的东西都加进 <code>schema</code> 里了！</p> <h2 id="documents"><a href="#documents" class="header-anchor">#</a> Documents</h2> <p>Mongoose <code>document</code> 代表着 MongoDB 文档的一对一映射。 每个 document 都是他的 Model 的实例。</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/blogs/assets/js/app.83b52b03.js" defer></script><script src="/blogs/assets/js/2.49b2695f.js" defer></script><script src="/blogs/assets/js/10.fcfbf0bd.js" defer></script>
+  </body>
+</html>
