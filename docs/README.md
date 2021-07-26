@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /assets/logo.png
-heroText: 部落格
+heroText: Note
 tagline: 懒人笔记
 actionText: 快速上手 →
 actionLink: /mongoose/

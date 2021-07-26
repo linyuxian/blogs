@@ -1,6 +1,6 @@
 module.exports = {
   base: '/blogs/',
-  title: '部落格',
+  title: 'Note',
   description: 'Just playing around',
   themeConfig: {
     logo: '/assets/logo.png',
@@ -12,7 +12,18 @@ module.exports = {
         ariaLabel: '日常笔记',
         items: [
           { text: 'Mongoose', link: '/mongoose/' },
+          { text: '小程序', link: '/mini-program/' },
           { text: 'Japanese', link: '/language/japanese/' }
+        ]
+      },
+      {
+        text: '插件',
+        ariaLabel: '常用插件',
+        items: [
+          { text: 'vue', link: '/plugins/vue/' },
+          { text: 'react', link: '/mini-program/' },
+          { text: '小程序', link: '/language/japanese/' },
+          { text: 'JavaScript', link: '/language/japanese/' },
         ]
       }
     ]
